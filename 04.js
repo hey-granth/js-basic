@@ -45,3 +45,6 @@ if (t2) {
 }
 // the output will be no as t2 is undefined and it is false in JS
 
+// we can also create and store functions within an object
+stud.greeting = () => console.log('hello')
+stud.greeting()
